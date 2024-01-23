@@ -26,7 +26,7 @@ def main():
         if check_root():
             iha089_dir()
             pwd = get_working_dir()
-            cmd = "mv {} /usr/share/ihaahi".format(pwd)
+            cmd = "cp -r {} /usr/share/ihaahi".format(pwd)
             os.system(cmd)
             runner_create()
         else:
