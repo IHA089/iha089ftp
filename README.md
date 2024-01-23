@@ -2,7 +2,7 @@
 This tool is design for FTP brute force
 
 # install
-ihagarud install iha089ftp
+python3 install.py
 
 # for more information visit
 
